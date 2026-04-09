@@ -80,7 +80,7 @@ function createMarkup(arr) {
              src="${image.preview}"
              data-source="${image.original}"
              alt="${image.description}"
-            "width="360"
+            width="360"
            />
          </a>
      </li>
@@ -98,6 +98,7 @@ function handleClick(event) {
   const instance = basicLightbox.create(`
   	<div class="modal">
         <img src="${event.target.dataset.source}" alt="${event.target.alt}"/>
+        </div>
   `);
   instance.show();
 }
