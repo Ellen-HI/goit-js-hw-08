@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  color: currentColor;
+}
+
+img {
+  display: block;
+}
+
+input {
+  font-family: inherit;
+}
+
+.gallery {
+  width: 1128px;
+  height: 648px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 156px;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
